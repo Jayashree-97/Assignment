@@ -5,7 +5,6 @@ public class SnakeAndLadder {
             String asf = "";
             int position = 0;
 
-
             while( position < 100 ){
 
                 int NumberOnDie =  RandomNumber(1, 6);
