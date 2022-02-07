@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class PerfectNumber {
     public static void main(String[]args){
-        int i, sum= 0;
+        int i = 1, sum= 0;
         Scanner scanner = new Scanner(System.in);
         int values  = scanner.nextInt();
         int k = 28;
-        if(i>0){
+        if( values >0){
 
             for(int j =1; j <= k/2; j++){
                 if(j % i ==0){
